@@ -156,6 +156,9 @@ span {
   .section1LeftCol {
     padding: 2% 5% 0 0;
   }
+  .hiraceCol {
+    padding: 0 25%;
+  }
 }
 @media (max-width: 1200px) {
   .img1 {
@@ -173,11 +176,20 @@ span {
   .section1LeftCol {
     padding: 2% 0 0 0;
   }
+  .hiraceCol {
+    padding: 0 15%;
+  }
 }
 @media (max-width: 768px) {
   .img1 {
     width: 100%;
     padding: 5%;
+  }
+  .cardCol {
+    margin: 2%;
+  }
+  .thirdSection {
+    margin: 5% 0;
   }
 }
 @media (max-width: 576px) {
@@ -187,5 +199,14 @@ span {
   }
   .companyLogo {
     margin: 5% 0;
+  }
+  .hiraceCol {
+    padding: 0 8%;
+  }
+  .cardRow {
+    padding: 5% 10%;
+  }
+  .cardCol {
+    padding: 5% 10%;
   }
 }
