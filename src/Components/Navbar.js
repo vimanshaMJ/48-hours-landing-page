@@ -10,7 +10,7 @@ export default function TheNavbar() {
   return (
     <Navbar expand="md" className={classes.container}>
       <Container>
-        <Navbar.Brand href="#logo">
+        <Navbar.Brand href="#logo" className={classes.logo}>
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,7 +30,7 @@ export default function TheNavbar() {
             </Nav.Link>
           </Nav>
           <Nav.Link href="#btn">
-            <PrimaryButton buttonText="Sign Up" />
+            <PrimaryButton buttonText="Sign Up  >" />
           </Nav.Link>
         </Navbar.Collapse>
       </Container>

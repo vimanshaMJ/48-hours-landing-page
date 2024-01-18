@@ -1,0 +1,9 @@
+.actionBtn {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  background-color: #635bff;
+}
+.actionBtn:hover {
+  background-color: #4f46e5;
+}
