@@ -4,6 +4,7 @@ import classes from "./Homepage.module.css";
 import TheNavbar from "../Components/Navbar";
 import SecondaryButton from "../Components/SecondaryButton";
 import img1 from "../Images/image-1.jpg";
+import img2 from "../Images/image-2.jpg";
 import rightIcon from "../Images/right-icon.png";
 import PrimaryButton from "../Components/PrimaryButton";
 import company1 from "../Images/company-1.jpg";
@@ -126,7 +127,7 @@ export default function Homepage() {
             </div>
           </div>
           <div className={`row ${classes.cardRow}`}>
-            <div className={`col-md-3 col-sm-6 ${classes.cardCol}`}>
+            <div className={`col-md-3 col-sm-4 ${classes.cardCol}`}>
               <img src={icon1} className={classes.icon} />
               <h4 className={classes.cardTitle}>Manage candidates easily</h4>
               <p className={classes.cardPara}>
@@ -138,7 +139,7 @@ export default function Homepage() {
               </a>
             </div>
 
-            <div className={`col-md-3 col-sm-6 ${classes.cardCol}`}>
+            <div className={`col-md-3 col-sm-4 ${classes.cardCol}`}>
               <img src={icon2} className={classes.icon} />
               <h4 className={classes.cardTitle}>
                 User-friendly hiring software
@@ -151,7 +152,7 @@ export default function Homepage() {
               </a>
             </div>
 
-            <div className={`col-md-3 col-sm-6 ${classes.cardCol}`}>
+            <div className={`col-md-3 col-sm-4 ${classes.cardCol}`}>
               <img src={icon3} className={classes.icon} />
               <h4 className={classes.cardTitle}>Make the perfect hire</h4>
               <p className={classes.cardPara}>
@@ -161,6 +162,59 @@ export default function Homepage() {
               <a href="">
                 <h4 className={classes.cardLink}>Learn More</h4>{" "}
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={`container-fluid ${classes.fourthSection}`}>
+        <div className="container-fluid">
+          <div className="row">
+            <div className={`col-12 ${classes.worksCol}`}>
+              <SecondaryButton
+                buttonText={"HOW IT WORKS"}
+                className={classes.worksBtn}
+              />
+              <h1 className={classes.rowTitle}>Getting started is easy</h1>
+              <p>
+                Create a profile and we'll match you with the best jobs and your
+                dream companies and jobs in the world.
+              </p>
+            </div>
+          </div>
+
+          <div className={`row ${classes.worksRow}`}>
+            <div className={`col-md-5 ${classes.col5}`}>
+              <img src={img2} className={classes.img2} />
+            </div>
+            <div className={`col-md-5 ${classes.col5}`}>
+              <h4 className={classes.number}>02</h4>
+              <h2 className={classes.subTitle}>Fill your personal data</h2>
+              <p>
+                Finish your register and complete your personal data and prepare
+                your resume.
+              </p>
+              <hr className={classes.hrule} />
+
+              <h5 className={classes.list}>
+                <img src={rightIcon} className={classes.rightIcon} /> One
+                workflow.
+                <span>
+                  <p style={{ display: "inline" }}>
+                    Easily collaborate with temas to find & hire the right
+                    candidate.
+                  </p>
+                </span>
+              </h5>
+              <h5 className={classes.list}>
+                <img src={rightIcon} className={classes.rightIcon} /> Easier
+                Applying.
+                <span>
+                  <p style={{ display: "inline" }}>
+                    Create account that will engage your profile.
+                  </p>
+                </span>
+              </h5>
             </div>
           </div>
         </div>
