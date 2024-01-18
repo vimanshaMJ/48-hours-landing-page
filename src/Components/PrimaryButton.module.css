@@ -3,6 +3,7 @@
   width: 120px;
   height: 40px;
   background-color: #635bff;
+  font-size: large;
 }
 .actionBtn:hover {
   background-color: white;

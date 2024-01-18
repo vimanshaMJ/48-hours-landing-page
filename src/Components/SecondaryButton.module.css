@@ -7,6 +7,8 @@
   height: 30px;
   border-radius: 30px;
   border: solid 2px rgb(199, 198, 198);
+  padding: 3%;
+  font-weight: bold;
 }
 .actionButton:hover {
   background-color: #635bff;

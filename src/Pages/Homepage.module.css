@@ -74,3 +74,44 @@ span {
 .companyLogo {
   margin: 25% 0 0 0;
 }
+
+/* Third Section */
+.thirdSection {
+  padding: 5% 0;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+}
+.hiraceCol {
+  padding: 0 30%;
+}
+.hiraceBtn {
+  margin: auto;
+}
+.rowTitle {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 2% 0;
+}
+.cardRow {
+  justify-content: center;
+}
+.cardCol {
+  text-align: left;
+  margin: 5% 1%;
+  border: rgb(234, 230, 230) solid 2px;
+  border-radius: 20px;
+  padding: 2%;
+}
+.cardTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 3% 0;
+}
+.cardPara {
+  font-size: medium;
+}
+.cardLink {
+  font-size: 1.3rem;
+  padding-top: 3%;
+}
