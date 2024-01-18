@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  padding: 20px 0;
 }
 .logo {
   margin: 0 5% 0 0;
@@ -12,4 +12,11 @@
 .text {
   color: black;
   width: 120px;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+  .text {
+    width: auto;
+  }
 }
