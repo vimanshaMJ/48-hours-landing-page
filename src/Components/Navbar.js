@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import classes from "./Navbar.module.css";
 import logo from "../Images/logo.jpg";
+import PrimaryButton from "./PrimaryButton";
 
 export default function TheNavbar() {
   return (
@@ -28,9 +29,9 @@ export default function TheNavbar() {
               About Us
             </Nav.Link>
           </Nav>
-          {/* <Nav.Link href="#btn">
+          <Nav.Link href="#btn">
             <PrimaryButton buttonText="Sign Up" />
-          </Nav.Link> */}
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
