@@ -127,6 +127,7 @@ span {
   border-radius: 30px;
   margin: 2% 8% 10% 8%;
 }
+.imgCol,
 .col5 {
   text-align: left;
   margin: 3%;
@@ -150,19 +151,36 @@ span {
 .list {
   padding: 0 16% 2% 0;
 }
+.plist {
+  display: inline;
+}
 
 /* Media queries */
 @media (max-width: 1400px) {
   .section1LeftCol {
     padding: 2% 5% 0 0;
   }
-  .hiraceCol {
+  .hiraceCol,
+  .worksCol {
     padding: 0 25%;
+  }
+  .imgCol {
+    align-self: center;
+  }
+  .img2 {
+    width: 110%;
+    height: 100%;
   }
 }
 @media (max-width: 1200px) {
   .img1 {
     width: 100%;
+  }
+  .col5 {
+    margin: 3% 5%;
+  }
+  .worksRow {
+    margin: 2% 5% 10% 5%;
   }
 }
 @media (max-width: 992px) {
@@ -176,8 +194,19 @@ span {
   .section1LeftCol {
     padding: 2% 0 0 0;
   }
-  .hiraceCol {
+  .hiraceCol,
+  .worksCol {
     padding: 0 15%;
+  }
+  .img2 {
+    width: 120%;
+  }
+  .list,
+  .plist {
+    font-size: small;
+  }
+  .list {
+    padding: 0 2% 2% 0;
   }
 }
 @media (max-width: 768px) {
@@ -191,8 +220,35 @@ span {
   .thirdSection {
     margin: 5% 0;
   }
+  .imgCol {
+    text-align: center;
+    margin: 5% 0;
+  }
+  .img2 {
+    width: 80%;
+    height: auto;
+  }
+  .list,
+  .plist {
+    font-size: medium;
+    padding-right: 10%;
+  }
+  .personalPara {
+    margin-bottom: 5%;
+    padding-right: 10%;
+  }
+  .hrule {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
+  .section1LeftCol {
+    padding: 3%;
+  }
+  .colTitle {
+    font-size: 2.5rem;
+    padding: 5% 0 0 0;
+  }
   .companyTitle {
     padding: 5% 0;
     font-size: 1.5rem;
@@ -208,5 +264,13 @@ span {
   }
   .cardCol {
     padding: 5% 10%;
+  }
+  .list,
+  .plist {
+    font-size: small;
+  }
+  .img2 {
+    width: 80%;
+    height: auto;
   }
 }

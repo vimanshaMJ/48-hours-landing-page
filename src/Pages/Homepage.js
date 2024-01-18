@@ -186,13 +186,13 @@ export default function Homepage() {
           </div>
 
           <div className={`row ${classes.worksRow}`}>
-            <div className={`col-md-5 ${classes.col5}`}>
+            <div className={`col-md-5 ${classes.imgCol}`}>
               <img src={img2} className={classes.img2} />
             </div>
             <div className={`col-md-5 ${classes.col5}`}>
               <h4 className={classes.number}>02</h4>
               <h2 className={classes.subTitle}>Fill your personal data</h2>
-              <p>
+              <p className={classes.personalPara}>
                 Finish your register and complete your personal data and prepare
                 your resume.
               </p>
@@ -202,7 +202,7 @@ export default function Homepage() {
                 <img src={rightIcon} className={classes.rightIcon} /> One
                 workflow.
                 <span>
-                  <p style={{ display: "inline" }}>
+                  <p className={classes.plist}>
                     Easily collaborate with temas to find & hire the right
                     candidate.
                   </p>
@@ -212,7 +212,7 @@ export default function Homepage() {
                 <img src={rightIcon} className={classes.rightIcon} /> Easier
                 Applying.
                 <span>
-                  <p style={{ display: "inline" }}>
+                  <p className={classes.plist}>
                     Create account that will engage your profile.
                   </p>
                 </span>
