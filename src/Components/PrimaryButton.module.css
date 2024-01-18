@@ -5,5 +5,7 @@
   background-color: #635bff;
 }
 .actionBtn:hover {
-  background-color: #4f46e5;
+  background-color: white;
+  color: #635bff;
+  cursor: pointer;
 }
