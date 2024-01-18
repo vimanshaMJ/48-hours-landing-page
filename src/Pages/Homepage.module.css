@@ -64,3 +64,13 @@ span {
 .img1 {
   width: 100%;
 }
+
+/* Second Section */
+.secondSection {
+  background-color: #f5f5f5;
+  color: grey;
+  padding: 5% 0;
+}
+.companyLogo {
+  margin: 25% 0 0 0;
+}
