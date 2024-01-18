@@ -137,7 +137,10 @@ export default function Homepage() {
                 them faster
               </p>
               <a href="">
-                <h4 className={classes.cardLink}>Learn More</h4>{" "}
+                <h4 className={classes.cardLink}>
+                  Learn More{" "}
+                  <span className="material-symbols-outlined">east</span>{" "}
+                </h4>{" "}
               </a>
             </div>
 
@@ -150,7 +153,10 @@ export default function Homepage() {
                 Make it easy and quick for top candidates to find your job.
               </p>
               <a href="">
-                <h4 className={classes.cardLink}>Learn More</h4>{" "}
+                <h4 className={classes.cardLink}>
+                  Learn More{" "}
+                  <span className="material-symbols-outlined">east</span>{" "}
+                </h4>
               </a>
             </div>
 
@@ -162,7 +168,10 @@ export default function Homepage() {
                 easily.
               </p>
               <a href="">
-                <h4 className={classes.cardLink}>Learn More</h4>{" "}
+                <h4 className={classes.cardLink}>
+                  Learn More
+                  <span className="material-symbols-outlined">east</span>
+                </h4>
               </a>
             </div>
           </div>
