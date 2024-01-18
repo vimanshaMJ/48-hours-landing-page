@@ -26,7 +26,7 @@ export default function Homepage() {
       <div className={`container-fluid ${classes.firstSection}`}>
         <div className="container">
           <div className="row">
-            <div className={`col-sm-6 ${classes.section1LeftCol}`}>
+            <div className={`col-md-6 ${classes.section1LeftCol}`}>
               <SecondaryButton
                 buttonText={"WE ARE HIRING "}
                 buttonIcon={
@@ -77,7 +77,7 @@ export default function Homepage() {
                 Easy to set up{" "}
               </p>
             </div>
-            <div className={`col-sm-6 ${classes.section1RightCol}`}>
+            <div className={`col-md-6 ${classes.section1RightCol}`}>
               <img src={img1} alt="img1" className={classes.img1} />
             </div>
           </div>
