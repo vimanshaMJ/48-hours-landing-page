@@ -1,9 +1,13 @@
 import React from "react";
+import classes from "./Homepage.module.css";
+import TheNavbar from "../Components/Navbar";
 
 export default function Homepage() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <div className={`container-fluid ${classes.navbarSection}`}>
+        <TheNavbar />
+      </div>
     </div>
   );
 }
