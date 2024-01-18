@@ -88,7 +88,9 @@ export default function Homepage() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h5>Trusted by 150+ world's best companies</h5>
+              <h5 className={classes.companyTitle}>
+                Trusted by 150+ world's best companies
+              </h5>
             </div>
           </div>
           <div className="row justify-content-center">

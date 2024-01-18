@@ -159,10 +159,17 @@ span {
 }
 @media (max-width: 1200px) {
   .img1 {
-    width: auto;
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
+  .colTitle {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+  .img1 {
+    width: 110%;
+  }
   .section1LeftCol {
     padding: 2% 0 0 0;
   }
@@ -171,5 +178,14 @@ span {
   .img1 {
     width: 100%;
     padding: 5%;
+  }
+}
+@media (max-width: 576px) {
+  .companyTitle {
+    padding: 5% 0;
+    font-size: 1.5rem;
+  }
+  .companyLogo {
+    margin: 5% 0;
   }
 }
