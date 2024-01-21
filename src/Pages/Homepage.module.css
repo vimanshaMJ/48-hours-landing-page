@@ -102,6 +102,7 @@ span {
   border-radius: 20px;
   padding: 2%;
 }
+
 .cardTitle {
   font-size: 1.3rem;
   font-weight: bold;
@@ -126,7 +127,7 @@ span {
 .worksRow {
   border: rgb(234, 230, 230) solid 2px;
   border-radius: 30px;
-  margin: 2% 8% 10% 8%;
+  margin: 2% 8% 5% 8%;
 }
 .imgCol,
 .col5 {
@@ -154,6 +155,15 @@ span {
 }
 .plist {
   display: inline;
+}
+
+.cardRow2 {
+  justify-content: center;
+  text-align: left;
+}
+.cardCol2 {
+  margin: 0 1%;
+  width: 20%;
 }
 
 /* Media queries */

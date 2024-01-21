@@ -228,6 +228,29 @@ export default function Homepage() {
               </h5>
             </div>
           </div>
+
+          <div className={`row ${classes.cardRow2}`}>
+            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+              <p>01</p>
+              <p className={classes.cardTitle2}>Login or Register</p>
+              <p>Follow the whole step and you're just ready to get started.</p>
+            </div>
+            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+              <p>02</p>
+              <p className={classes.cardTitle2}>Fill your Personal Data</p>
+              <p>Finish your register and complete your personal data.</p>
+            </div>
+            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+              <p>03</p>
+              <p className={classes.cardTitle2}>Upload your Resume</p>
+              <p>Upload your latest resume and match with your background.</p>
+            </div>
+            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+              <p>04</p>
+              <p className={classes.cardTitle2}>Find the Match Job</p>
+              <p>Look for job vacancy and immediately get your dream job.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
