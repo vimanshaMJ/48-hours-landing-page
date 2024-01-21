@@ -15,6 +15,14 @@ import company5 from "../Images/company-5.jpg";
 import icon1 from "../Images/icon-1.jpg";
 import icon2 from "../Images/icon-2.jpg";
 import icon3 from "../Images/icon-3.jpg";
+import loom from "../Images/loom.png";
+import hubspot from "../Images/hubspot.png";
+import framer from "../Images/framer.png";
+import notion from "../Images/notion.png";
+import spotify from "../Images/spotify.png";
+import twitter from "../Images/twitter.png";
+import location from "../Images/location.png";
+import coin from "../Images/coin.png";
 
 export default function Homepage() {
   return (
@@ -287,6 +295,202 @@ export default function Homepage() {
                 buttonText={"Latest"}
                 className={classes.latestBtn}
               />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={loom} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-8">
+                  <h5>Web Developer</h5>
+                  <p>Loom</p>
+                </div>
+                <div className="col-2">
+                  <span
+                    className={`material-symbols-outlined ${classes.jobArrow}`}
+                  >
+                    east
+                  </span>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are on a mission to empower everyone at work to communicate
+                  more effectively.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  New York •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Part-Time
+                </p>
+              </div>
             </div>
           </div>
         </div>
