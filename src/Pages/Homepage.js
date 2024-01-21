@@ -261,6 +261,36 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+
+      <section className={classes.fifthSection}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className={`col-12 ${classes.vacancyCol}`}>
+              <SecondaryButton
+                buttonText={"JOB VACANCY"}
+                className={classes.vacancyBtn}
+              />
+              <h1 className={classes.rowTitle}>Discover the best job</h1>
+              <p>
+                Start career with the best company in the world, we ensures you
+                to get the best job possible.
+              </p>
+            </div>
+            <div className={`col-2 ${classes.btncol1}`}>
+              <PrimaryButton
+                buttonText={"Popular"}
+                className={classes.popularBtn}
+              />
+            </div>
+            <div className={`col-2 ${classes.btncol2}`}>
+              <PrimaryButton
+                buttonText={"Latest"}
+                className={classes.latestBtn}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
