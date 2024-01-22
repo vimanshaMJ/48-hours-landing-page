@@ -288,7 +288,7 @@ span {
   color: #635bff;
 }
 .signupBtn:hover {
-  background-color: #635bff;
+  background-color: #635bff !important;
   color: white;
 }
 .img3 {
