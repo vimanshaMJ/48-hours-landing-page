@@ -323,7 +323,7 @@ span {
 }
 .footerCol2 {
   text-align: right;
-  align-self: first baseline;
+  align-self: auto;
 }
 .socialIcon {
   width: 25px;
@@ -506,6 +506,11 @@ span {
   .lastCol1 {
     padding: 5%;
   }
+  .footer {
+    p {
+      font-size: 0.7rem;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -559,6 +564,11 @@ span {
   .lastCol2 {
     width: 30%;
     padding: 0;
+  }
+  .footerCol1,
+  .footerCol2,
+  .footerCol2 {
+    text-align: center;
   }
 }
 

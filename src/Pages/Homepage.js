@@ -543,18 +543,19 @@ export default function Homepage() {
           </div>
           <hr />
         </div>
+
         <section className={classes.footer}>
           <div className="container">
             <div className="row">
-              <div className={`col-md-8 ${classes.footerCol1}`}>
+              <div className={`col-lg-7 col-sm-5 ${classes.footerCol1}`}>
                 <p>©2023 Hirace Technologies, Inc.</p>
               </div>
-              <div className={`col-md-2 ${classes.footerCol2}`}>
+              <div className={`col-lg-3 col-sm-4 ${classes.footerCol2}`}>
                 <p>
                   <span>Terms</span> <span>Privacy</span> <span>Legal</span>
                 </p>
               </div>
-              <div className={`col-md-2 ${classes.footerCol2}`}>
+              <div className={`col-lg-2 col-sm-3 ${classes.footerCol2}`}>
                 <img src={facebookIcon} alt="" className={classes.socialIcon} />
                 <img src={linkedinIcon} alt="" className={classes.socialIcon} />
                 <img src={twitterIcon} alt="" className={classes.socialIcon} />
