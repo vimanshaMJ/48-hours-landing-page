@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import classes from "./Homepage.module.css";
 import TheNavbar from "../Components/Navbar";
 import SecondaryButton from "../Components/SecondaryButton";
+import logo from "../Images/logo-2.jpg";
 import img1 from "../Images/image-1.jpg";
 import img2 from "../Images/image-2.jpg";
 import img3 from "../Images/image-3.jpg";
@@ -24,6 +25,9 @@ import spotify from "../Images/spotify.png";
 import twitter from "../Images/twitter.png";
 import location from "../Images/location.png";
 import coin from "../Images/coin.png";
+import facebookIcon from "../Images/facebook-icon.png";
+import linkedinIcon from "../Images/linkedin-icon.png";
+import twitterIcon from "../Images/twitter-icon.png";
 
 export default function Homepage() {
   return (
@@ -451,7 +455,7 @@ export default function Homepage() {
             <div className={`col-sm-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
-                  <img src={loom} alt="" className={classes.jobIcon} />
+                  <img src={twitter} alt="" className={classes.jobIcon} />
                 </div>
                 <div className="col-7">
                   <h5 className={classes.cardPosition}>UX Resercher</h5>
@@ -494,7 +498,7 @@ export default function Homepage() {
       <section className={classes.sixthSection}>
         <div className={`container ${classes.blueContainer}`}>
           <div className="row">
-            <div className={`col-sm-6 ${classes.signupCol}`}>
+            <div className={`col-md-6 ${classes.signupCol}`}>
               <h1 className={classes.signupTitle}>
                 Set up personalized job search alerts
               </h1>
@@ -503,11 +507,61 @@ export default function Homepage() {
                 className={classes.signupBtn}
               />
             </div>
-            <div className="col-sm-6">
+            <div className="col-md-6">
               <img src={img3} alt="" className={classes.img3} />
             </div>
           </div>
         </div>
+
+        <div className={`container ${classes.lastContainer}`}>
+          <div className={`row ${classes.lastRow}`}>
+            <div className={`col-md-6 ${classes.lastCol1}`}>
+              <img src={logo} alt="" className={classes.logo} />
+              <p>
+                Find job you love and research the fastest-growing companies.
+              </p>
+            </div>
+            <div className={`col-md-2 col-sm-4 ${classes.lastCol2}`}>
+              <p>Product</p>
+              <p className={classes.text}>Remote Job</p>
+              <p className={classes.text}>Startup</p>
+              <p className={classes.text}>Investor & Board</p>
+              <p className={classes.text}>Company</p>
+            </div>
+            <div className={`col-md-2 col-sm-4 ${classes.lastCol2}`}>
+              <p>Features</p>
+              <p className={classes.text}>For Candidate</p>
+              <p className={classes.text}>For Company</p>
+              <p className={classes.text}>Society</p>
+            </div>
+            <div className={`col-md-2 col-sm-4 ${classes.lastCol2}`}>
+              <p>About Us</p>
+              <p className={classes.text}>Documentation</p>
+              <p className={classes.text}>Contact Ua</p>
+              <p className={classes.text}>Career</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <section className={classes.footer}>
+          <div className="container">
+            <div className="row">
+              <div className={`col-md-8 ${classes.footerCol1}`}>
+                <p>©2023 Hirace Technologies, Inc.</p>
+              </div>
+              <div className={`col-md-2 ${classes.footerCol2}`}>
+                <p>
+                  <span>Terms</span> <span>Privacy</span> <span>Legal</span>
+                </p>
+              </div>
+              <div className={`col-md-2 ${classes.footerCol2}`}>
+                <img src={facebookIcon} alt="" className={classes.socialIcon} />
+                <img src={linkedinIcon} alt="" className={classes.socialIcon} />
+                <img src={twitterIcon} alt="" className={classes.socialIcon} />
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </div>
   );

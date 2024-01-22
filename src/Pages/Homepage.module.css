@@ -67,7 +67,7 @@ span {
 
 /* Second Section */
 .secondSection {
-  background-color: #f5f5f5;
+  background-color: #f9f9fb;
   color: grey;
   padding: 5% 0;
 }
@@ -259,9 +259,8 @@ span {
 
 /* Sixth Section */
 .sixthSection {
-  padding-top: 3%;
-  background-color: #f5f5f5;
-  padding-bottom: 5%;
+  padding: 3% 0;
+  background-color: #f9f9fb;
 }
 .blueContainer {
   background-color: #635bff;
@@ -292,6 +291,40 @@ span {
 }
 .img3 {
   width: 100%;
+}
+
+.lastRow {
+  padding: 5% 0;
+  text-align: left;
+}
+.lastCol1 {
+  padding-right: 25%;
+}
+.logo {
+  margin: 5% 0;
+}
+.text {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9fb;
+  text-align: left;
+  padding: 2%;
+  p {
+    font-size: 0.9rem;
+  }
+}
+.footerCol2 {
+  text-align: right;
+  align-self: first baseline;
+}
+.socialIcon {
+  width: 25px;
+  margin: 0 3%;
 }
 
 /* Media queries */
