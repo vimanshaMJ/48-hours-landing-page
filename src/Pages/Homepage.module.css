@@ -500,7 +500,14 @@ span {
   .img3 {
     width: 60%;
   }
+  .lastCol1 {
+    text-align: center;
+  }
+  .lastCol1 {
+    padding: 5%;
+  }
 }
+
 @media (max-width: 576px) {
   .section1LeftCol {
     padding: 3%;
@@ -546,7 +553,15 @@ span {
   .sixthSection {
     padding: 5%;
   }
+  .lastRow {
+    justify-content: center;
+  }
+  .lastCol2 {
+    width: 30%;
+    padding: 0;
+  }
 }
+
 @media (max-width: 450px) {
   .viewJob {
     padding: 0 25%;
