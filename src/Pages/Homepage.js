@@ -474,9 +474,23 @@ export default function Homepage() {
                 </p>
               </div>
             </div>
+
+            <p className={classes.viewJobPara}>
+              Did you find what you're looking for?{" "}
+              <a href="" className={classes.viewJob}>
+                View All Job
+                <span
+                  className={`material-symbols-outlined ${classes.jobArrow}`}
+                >
+                  east
+                </span>
+              </a>
+            </p>
           </div>
         </div>
       </section>
+
+      <section className={classes.sixthSection}></section>
     </div>
   );
 }

@@ -185,7 +185,7 @@ span {
 
 /* Fifth Section */
 .fifthSection {
-  padding: 5% 0;
+  padding-top: 5%;
   background-color: #f5f5f5;
 }
 .vacancyCol {
@@ -249,6 +249,18 @@ span {
   color: #635bff;
   font-size: smaller;
   text-align: right;
+}
+.viewJobPara {
+  margin: 5% 0;
+}
+.viewJob {
+  color: #635bff;
+}
+
+/* Sixth Section */
+.sixthSection {
+  padding-top: 5%;
+  background-color: #f5f5f5;
 }
 
 /* Media queries */
