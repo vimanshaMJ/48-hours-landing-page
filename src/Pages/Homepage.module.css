@@ -259,8 +259,39 @@ span {
 
 /* Sixth Section */
 .sixthSection {
-  padding-top: 5%;
+  padding-top: 3%;
   background-color: #f5f5f5;
+  padding-bottom: 5%;
+}
+.blueContainer {
+  background-color: #635bff;
+  color: white;
+  border-radius: 30px;
+  padding: 0 2%;
+}
+.signupCol {
+  text-align: left;
+  align-self: flex-end;
+  padding: 2%;
+}
+.signupTitle {
+  font-size: 3rem;
+  padding: 0 20% 0 5%;
+}
+.signupBtn {
+  font-weight: bold;
+  width: 25%;
+  height: 55px;
+  margin: 5%;
+  background-color: white;
+  color: #635bff;
+}
+.signupBtn:hover {
+  background-color: #635bff;
+  color: white;
+}
+.img3 {
+  width: 100%;
 }
 
 /* Media queries */

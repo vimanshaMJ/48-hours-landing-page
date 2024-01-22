@@ -5,6 +5,7 @@ import TheNavbar from "../Components/Navbar";
 import SecondaryButton from "../Components/SecondaryButton";
 import img1 from "../Images/image-1.jpg";
 import img2 from "../Images/image-2.jpg";
+import img3 from "../Images/image-3.jpg";
 import rightIcon from "../Images/right-icon.png";
 import PrimaryButton from "../Components/PrimaryButton";
 import company1 from "../Images/company-1.jpg";
@@ -490,7 +491,24 @@ export default function Homepage() {
         </div>
       </section>
 
-      <section className={classes.sixthSection}></section>
+      <section className={classes.sixthSection}>
+        <div className={`container ${classes.blueContainer}`}>
+          <div className="row">
+            <div className={`col-sm-6 ${classes.signupCol}`}>
+              <h1 className={classes.signupTitle}>
+                Set up personalized job search alerts
+              </h1>
+              <PrimaryButton
+                buttonText={"Sign Up "}
+                className={classes.signupBtn}
+              />
+            </div>
+            <div className="col-sm-6">
+              <img src={img3} alt="" className={classes.img3} />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
