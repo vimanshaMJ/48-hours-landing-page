@@ -307,7 +307,7 @@ export default function Homepage() {
                   <img src={loom} alt="" className={classes.jobIcon} />
                 </div>
                 <div className="col-8">
-                  <h5>Web Developer</h5>
+                  <h5 className={classes.cardPosition}>Web Developer</h5>
                   <p>Loom</p>
                 </div>
                 <div className="col-2">
@@ -336,29 +336,55 @@ export default function Homepage() {
             <div className={`col-sm-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
-                  <img src={loom} alt="" className={classes.jobIcon} />
+                  <img src={hubspot} alt="" className={classes.jobIcon} />
                 </div>
-                <div className="col-8">
-                  <h5>Web Developer</h5>
-                  <p>Loom</p>
+                <div className="col-7">
+                  <h5 className={classes.cardPosition}>
+                    Senior DevOps Engineer
+                  </h5>
+                  <p>Hubspot</p>
                 </div>
-                <div className="col-2">
-                  <span
-                    className={`material-symbols-outlined ${classes.jobArrow}`}
-                  >
-                    east
-                  </span>
+                <div className="col-3">
+                  <p className={classes.cardDate}>7 Jan 2022</p>
                 </div>
               </div>
               <div className="row">
                 <p>
-                  We are on a mission to empower everyone at work to communicate
-                  more effectively.
+                  Hubspot is a linear customer relationship management platform
+                  for scaling companies.
                 </p>
                 <hr />
                 <p>
                   <img src={location} className={classes.location} />
-                  New York •
+                  California •
+                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
+                  Contract
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={framer} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-7">
+                  <h5 className={classes.cardPosition}>Product Designer</h5>
+                  <p>Framer</p>
+                </div>
+                <div className="col-3">
+                  <p className={classes.cardDate}>23 Jan 2022</p>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  We are Framer. We're buliding the web design platform to help
+                  you do that.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  San Diego •
                   <img src={coin} className={classes.coin} /> 75k-90k / Year •
                   Part-Time
                 </p>
@@ -368,31 +394,55 @@ export default function Homepage() {
             <div className={`col-sm-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
-                  <img src={loom} alt="" className={classes.jobIcon} />
+                  <img src={notion} alt="" className={classes.jobIcon} />
                 </div>
-                <div className="col-8">
-                  <h5>Web Developer</h5>
-                  <p>Loom</p>
+                <div className="col-7">
+                  <h5 className={classes.cardPosition}>Frontend Engineer</h5>
+                  <p>Notion</p>
                 </div>
-                <div className="col-2">
-                  <span
-                    className={`material-symbols-outlined ${classes.jobArrow}`}
-                  >
-                    east
-                  </span>
+                <div className="col-3">
+                  <p className={classes.cardDate}>15 Jan 2022</p>
                 </div>
               </div>
               <div className="row">
                 <p>
-                  We are on a mission to empower everyone at work to communicate
-                  more effectively.
+                  You all-in-one workspace for tasks, notes, wikis, databases
+                  and team collaboration.
                 </p>
                 <hr />
                 <p>
                   <img src={location} className={classes.location} />
                   New York •
+                  <img src={coin} className={classes.coin} /> 10k-18k / Month •
+                  Internship
+                </p>
+              </div>
+            </div>
+
+            <div className={`col-sm-5  ${classes.jobCard}`}>
+              <div className="row">
+                <div className="col-2">
+                  <img src={spotify} alt="" className={classes.jobIcon} />
+                </div>
+                <div className="col-7">
+                  <h5 className={classes.cardPosition}>Data Scientist</h5>
+                  <p>Spotify</p>
+                </div>
+                <div className="col-3">
+                  <p className={classes.cardDate}>2 Feb 2022</p>
+                </div>
+              </div>
+              <div className="row">
+                <p>
+                  Passionate music fans. Innovative tech props. Perfect hermony.
+                  Join our band.
+                </p>
+                <hr />
+                <p>
+                  <img src={location} className={classes.location} />
+                  California •
                   <img src={coin} className={classes.coin} /> 75k-90k / Year •
-                  Part-Time
+                  Full-Time
                 </p>
               </div>
             </div>
@@ -402,93 +452,25 @@ export default function Homepage() {
                 <div className="col-2">
                   <img src={loom} alt="" className={classes.jobIcon} />
                 </div>
-                <div className="col-8">
-                  <h5>Web Developer</h5>
-                  <p>Loom</p>
+                <div className="col-7">
+                  <h5 className={classes.cardPosition}>UX Resercher</h5>
+                  <p>Twitter</p>
                 </div>
-                <div className="col-2">
-                  <span
-                    className={`material-symbols-outlined ${classes.jobArrow}`}
-                  >
-                    east
-                  </span>
+                <div className="col-3">
+                  <p className={classes.cardDate}>13 Feb 2022</p>
                 </div>
               </div>
               <div className="row">
                 <p>
-                  We are on a mission to empower everyone at work to communicate
-                  more effectively.
+                  Twitter is the market leading linking platform that was the
+                  first of its kind.
                 </p>
                 <hr />
                 <p>
                   <img src={location} className={classes.location} />
-                  New York •
-                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
-                  Part-Time
-                </p>
-              </div>
-            </div>
-
-            <div className={`col-sm-5  ${classes.jobCard}`}>
-              <div className="row">
-                <div className="col-2">
-                  <img src={loom} alt="" className={classes.jobIcon} />
-                </div>
-                <div className="col-8">
-                  <h5>Web Developer</h5>
-                  <p>Loom</p>
-                </div>
-                <div className="col-2">
-                  <span
-                    className={`material-symbols-outlined ${classes.jobArrow}`}
-                  >
-                    east
-                  </span>
-                </div>
-              </div>
-              <div className="row">
-                <p>
-                  We are on a mission to empower everyone at work to communicate
-                  more effectively.
-                </p>
-                <hr />
-                <p>
-                  <img src={location} className={classes.location} />
-                  New York •
-                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
-                  Part-Time
-                </p>
-              </div>
-            </div>
-
-            <div className={`col-sm-5  ${classes.jobCard}`}>
-              <div className="row">
-                <div className="col-2">
-                  <img src={loom} alt="" className={classes.jobIcon} />
-                </div>
-                <div className="col-8">
-                  <h5>Web Developer</h5>
-                  <p>Loom</p>
-                </div>
-                <div className="col-2">
-                  <span
-                    className={`material-symbols-outlined ${classes.jobArrow}`}
-                  >
-                    east
-                  </span>
-                </div>
-              </div>
-              <div className="row">
-                <p>
-                  We are on a mission to empower everyone at work to communicate
-                  more effectively.
-                </p>
-                <hr />
-                <p>
-                  <img src={location} className={classes.location} />
-                  New York •
-                  <img src={coin} className={classes.coin} /> 75k-90k / Year •
-                  Part-Time
+                  California •
+                  <img src={coin} className={classes.coin} /> 8k-15k / Month •
+                  Internship
                 </p>
               </div>
             </div>

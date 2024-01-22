@@ -219,6 +219,10 @@ span {
   border: solid 2px rgb(234, 230, 230);
   border-radius: 20px;
 }
+.jobCard:hover {
+  border: solid 2px #635bff;
+  box-shadow: #635bff 5px 5px;
+}
 .jobIcon {
   width: 50px;
   border-radius: 50%;
@@ -233,6 +237,18 @@ span {
 }
 .coin {
   margin: 0 10px;
+}
+.cardPosition {
+  margin-bottom: 0;
+}
+.jobArrow {
+  color: #635bff;
+  text-align: right;
+}
+.cardDate {
+  color: #635bff;
+  font-size: smaller;
+  text-align: right;
 }
 
 /* Media queries */
