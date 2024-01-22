@@ -243,28 +243,28 @@ export default function Homepage() {
           </div>
 
           <div className={`row ${classes.cardRow2}`}>
-            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+            <div className={`col-md-2 ${classes.cardCol2}`}>
               <p>01</p>
               <p className={classes.cardTitle2}>Login or Register</p>
               <p className={classes.cardPara2}>
                 Follow the whole step and you're just ready to get started.
               </p>
             </div>
-            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+            <div className={`col-md-2 ${classes.cardCol2}`}>
               <p>02</p>
               <p className={classes.cardTitle2}>Fill your Personal Data</p>
               <p className={classes.cardPara2}>
                 Finish your register and complete your personal data.
               </p>
             </div>
-            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+            <div className={`col-md-2 ${classes.cardCol2}`}>
               <p>03</p>
               <p className={classes.cardTitle2}>Upload your Resume</p>
               <p className={classes.cardPara2}>
                 Upload your latest resume and match with your background.
               </p>
             </div>
-            <div className={`col-lg-2 col-md-4 ${classes.cardCol2}`}>
+            <div className={`col-md-2 ${classes.cardCol2}`}>
               <p>04</p>
               <p className={classes.cardTitle2}>Find the Match Job</p>
               <p className={classes.cardPara2}>
@@ -289,13 +289,13 @@ export default function Homepage() {
                 to get the best job possible.
               </p>
             </div>
-            <div className={`col-2 ${classes.btncol1}`}>
+            <div className={`col-sm-2 ${classes.btncol1}`}>
               <PrimaryButton
                 buttonText={"Popular"}
                 className={classes.popularBtn}
               />
             </div>
-            <div className={`col-2 ${classes.btncol2}`}>
+            <div className={`col-sm-2 ${classes.btncol2}`}>
               <PrimaryButton
                 buttonText={"Latest"}
                 className={classes.latestBtn}
@@ -306,7 +306,7 @@ export default function Homepage() {
 
         <div className="container">
           <div className="row justify-content-center">
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={loom} alt="" className={classes.jobIcon} />
@@ -338,7 +338,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={hubspot} alt="" className={classes.jobIcon} />
@@ -368,7 +368,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={framer} alt="" className={classes.jobIcon} />
@@ -396,7 +396,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={notion} alt="" className={classes.jobIcon} />
@@ -424,7 +424,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={spotify} alt="" className={classes.jobIcon} />
@@ -452,7 +452,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className={`col-sm-5  ${classes.jobCard}`}>
+            <div className={`col-md-5  ${classes.jobCard}`}>
               <div className="row">
                 <div className="col-2">
                   <img src={twitter} alt="" className={classes.jobIcon} />

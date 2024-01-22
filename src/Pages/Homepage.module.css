@@ -197,10 +197,12 @@ span {
 .btncol1 {
   text-align: right;
   margin-right: -0.8%;
+  padding-top: 2%;
 }
 .btncol2 {
   text-align: left;
   margin-left: -0.8%;
+  padding-top: 2%;
 }
 .latestBtn {
   display: inline;
@@ -354,6 +356,18 @@ span {
   .worksRow {
     margin: 2% 5% 10% 5%;
   }
+  .vacancyCol {
+    padding: 0 15%;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: medium;
+    }
+  }
+  .cardDate {
+    font-size: 0.8rem !important;
+  }
 }
 @media (max-width: 992px) {
   .colTitle {
@@ -379,6 +393,31 @@ span {
   }
   .list {
     padding: 0 2% 2% 0;
+  }
+  .jobIcon {
+    width: 35px;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: small;
+    }
+  }
+  .location,
+  .coin {
+    width: 10px;
+  }
+  .location {
+    margin-right: 5px;
+  }
+  .coin {
+    margin: 0 5px;
+  }
+  .btncol1 {
+    margin-right: 2%;
+  }
+  .btncol2 {
+    margin-left: 2%;
   }
 }
 @media (max-width: 768px) {
@@ -412,6 +451,31 @@ span {
   .hrule {
     display: none;
   }
+  .vacancyCol {
+    padding: 0 5%;
+  }
+  .cardCol2 {
+    padding-top: 2%;
+    padding-left: 0;
+    margin: 5%;
+    width: 40%;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: medium;
+    }
+  }
+  .jobIcon {
+    width: 50px;
+  }
+  .btncol1,
+  .btncol2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  }
 }
 @media (max-width: 576px) {
   .section1LeftCol {
@@ -444,5 +508,20 @@ span {
   .img2 {
     width: 80%;
     height: auto;
+  }
+  .jobCard {
+    width: 80%;
+    h5,
+    p {
+      font-size: small;
+    }
+  }
+  .jobIcon {
+    width: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .viewJob {
+    padding: 0 25%;
   }
 }
