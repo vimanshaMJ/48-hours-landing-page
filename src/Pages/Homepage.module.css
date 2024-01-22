@@ -186,7 +186,7 @@ span {
 /* Fifth Section */
 .fifthSection {
   padding-top: 5%;
-  background-color: #f5f5f5;
+  background-color: #f9f9fb;
 }
 .vacancyCol {
   padding: 0 28%;
@@ -281,10 +281,10 @@ span {
 }
 .signupBtn {
   font-weight: bold;
-  width: 25%;
-  height: 55px;
+  width: 25% !important;
+  height: 55px !important;
   margin: 5%;
-  background-color: white;
+  background-color: white !important;
   color: #635bff;
 }
 .signupBtn:hover {
@@ -293,6 +293,7 @@ span {
 }
 .img3 {
   width: 100%;
+  padding: 2%;
 }
 
 .lastRow {
@@ -345,6 +346,9 @@ span {
     width: 110%;
     height: 100%;
   }
+  .signupTitle {
+    padding: 0 10% 0 5%;
+  }
 }
 @media (max-width: 1200px) {
   .img1 {
@@ -369,6 +373,7 @@ span {
     font-size: 0.8rem !important;
   }
 }
+
 @media (max-width: 992px) {
   .colTitle {
     font-size: 2.8rem;
@@ -419,7 +424,19 @@ span {
   .btncol2 {
     margin-left: 2%;
   }
+  .signupTitle {
+    font-size: 2.5rem;
+    padding: 0 5%;
+  }
+  .signupBtn {
+    width: 30% !important;
+    height: 55px !important;
+  }
+  .img3 {
+    margin: 10% 0;
+  }
 }
+
 @media (max-width: 768px) {
   .img1 {
     width: 100%;
@@ -476,6 +493,13 @@ span {
     padding: 0;
     width: 300px;
   }
+  .signupCol {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .img3 {
+    width: 60%;
+  }
 }
 @media (max-width: 576px) {
   .section1LeftCol {
@@ -518,6 +542,9 @@ span {
   }
   .jobIcon {
     width: 40px;
+  }
+  .sixthSection {
+    padding: 5%;
   }
 }
 @media (max-width: 450px) {
