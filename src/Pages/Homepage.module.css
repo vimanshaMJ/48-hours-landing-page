@@ -1,0 +1,579 @@
+/* First Section */
+
+.firstSection {
+  padding: 5% 0;
+  text-align: center;
+}
+.section1LeftCol {
+  padding: 2% 12% 0 0;
+  text-align: left;
+}
+.buttonText {
+  color: white;
+  background-color: #635bff;
+  font-weight: bold;
+}
+span {
+  margin-left: 5px;
+  padding: 5px;
+}
+.colTitle {
+  font-size: 3.5rem;
+  padding: 8% 3% 3% 0;
+  font-weight: 600;
+}
+.colPara {
+  font-size: large;
+  color: grey;
+  margin-top: 10px;
+}
+.searchBar {
+  margin: 8% 0 !important;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px rgb(199, 198, 198);
+  align-items: center;
+}
+.jobTitleSearch {
+  width: 120px;
+  border: none;
+  padding: 0 5%;
+  display: inline-flex;
+}
+.locationSearch {
+  width: 120px;
+  border: none;
+  padding: 0 5%;
+  display: inline-flex;
+}
+.searchBtn {
+  justify-content: center;
+  width: 107% !important;
+  height: 50px !important;
+}
+.rightIcon {
+  width: 15px;
+  margin-top: -3px;
+}
+
+.section1RightCol {
+  padding: 2%;
+  align-self: center;
+}
+.img1 {
+  width: 100%;
+}
+
+/* Second Section */
+.secondSection {
+  background-color: #f9f9fb;
+  color: grey;
+  padding: 5% 0;
+}
+.companyLogo {
+  margin: 25% 0 0 0;
+}
+
+/* Third Section */
+.thirdSection {
+  padding: 5% 0 2% 0;
+  justify-content: center;
+  text-align: center;
+}
+.hiraceCol {
+  padding: 0 33%;
+}
+.hiraceBtn {
+  margin: auto;
+}
+.rowTitle {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 2% 0;
+}
+.cardRow {
+  justify-content: center;
+}
+.cardCol {
+  text-align: left;
+  margin: 5% 1%;
+  border: rgb(234, 230, 230) solid 2px;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 3% 0;
+}
+.cardPara {
+  font-size: medium;
+}
+.cardLink {
+  font-size: 1.3rem;
+  padding-top: 3%;
+  text-decoration: none !important;
+}
+
+/* Fourth Section */
+.worksCol {
+  padding: 0 32%;
+}
+.worksBtn {
+  margin: auto;
+}
+.worksRow {
+  border: rgb(234, 230, 230) solid 2px;
+  border-radius: 30px;
+  margin: 2% 6% 5% 6%;
+}
+.imgCol,
+.col5 {
+  text-align: left;
+  margin: 3%;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.number {
+  color: #635bff;
+  font-weight: bold;
+}
+.subTitle {
+  font-weight: bold;
+  padding: 3% 0;
+}
+.hrule {
+  margin: 5% 0;
+}
+.list {
+  padding: 0 16% 2% 0;
+}
+.plist {
+  display: inline;
+}
+
+.cardRow2 {
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 5%;
+}
+.cardCol2 {
+  border-top: grey solid 4px;
+  padding-top: 2%;
+  padding-left: 0;
+  margin: 0 1.8%;
+  width: 19%;
+}
+.cardCol2:hover {
+  border-top: #635bff solid 4px;
+  .cardTitle2 {
+    color: #635bff;
+  }
+}
+.cardTitle2 {
+  color: black;
+  font-weight: bold;
+}
+.cardPara2 {
+  font-size: medium;
+}
+
+/* Fifth Section */
+.fifthSection {
+  padding-top: 5%;
+  background-color: #f9f9fb;
+}
+.vacancyCol {
+  padding: 0 28%;
+}
+.vacancyBtn {
+  margin: auto;
+}
+.btncol1 {
+  text-align: right;
+  margin-right: -0.8%;
+  padding-top: 2%;
+}
+.btncol2 {
+  text-align: left;
+  margin-left: -0.8%;
+  padding-top: 2%;
+}
+.latestBtn {
+  display: inline;
+  background-color: white !important;
+  color: #635bff;
+}
+.latestBtn:hover {
+  background-color: #635bff !important;
+  color: white !important;
+}
+.jobCard {
+  margin: 4% 2% 0 2%;
+  background-color: white;
+  padding: 2%;
+  text-align: left;
+  border: solid 2px rgb(234, 230, 230);
+  border-radius: 20px;
+}
+.jobCard:hover {
+  border: solid 2px #635bff;
+  box-shadow: #635bff 5px 5px;
+}
+.jobIcon {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.location,
+.coin {
+  width: 15px;
+}
+.location {
+  margin-right: 10px;
+}
+.coin {
+  margin: 0 10px;
+}
+.cardPosition {
+  margin-bottom: 0;
+}
+.jobArrow {
+  color: #635bff;
+  text-align: right;
+}
+.cardDate {
+  color: #635bff;
+  font-size: smaller;
+  text-align: right;
+}
+.viewJobPara {
+  margin: 5% 0;
+}
+.viewJob {
+  color: #635bff;
+}
+
+/* Sixth Section */
+.sixthSection {
+  padding: 3% 0;
+  background-color: #f9f9fb;
+}
+.blueContainer {
+  background-color: #635bff;
+  color: white;
+  border-radius: 30px;
+  padding: 0 2%;
+}
+.signupCol {
+  text-align: left;
+  align-self: flex-end;
+  padding: 2%;
+}
+.signupTitle {
+  font-size: 3rem;
+  padding: 0 20% 0 5%;
+}
+.signupBtn {
+  font-weight: bold;
+  width: 25% !important;
+  height: 55px !important;
+  margin: 5%;
+  background-color: white !important;
+  color: #635bff;
+}
+.signupBtn:hover {
+  background-color: #635bff !important;
+  color: white;
+}
+.img3 {
+  width: 100%;
+  padding: 2%;
+}
+
+.lastRow {
+  padding: 5% 0;
+  text-align: left;
+}
+.lastCol1 {
+  padding-right: 25%;
+}
+.logo {
+  margin: 5% 0;
+}
+.text {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9fb;
+  text-align: left;
+  padding: 2%;
+  p {
+    font-size: 0.9rem;
+  }
+}
+.footerCol2 {
+  text-align: right;
+  align-self: auto;
+}
+.socialIcon {
+  width: 25px;
+  margin: 0 3%;
+}
+
+/* Media queries */
+@media (max-width: 1400px) {
+  .section1LeftCol {
+    padding: 2% 5% 0 0;
+  }
+  .hiraceCol,
+  .worksCol {
+    padding: 0 25%;
+  }
+  .imgCol {
+    align-self: center;
+  }
+  .img2 {
+    width: 110%;
+    height: 100%;
+  }
+  .signupTitle {
+    padding: 0 10% 0 5%;
+  }
+}
+@media (max-width: 1200px) {
+  .img1 {
+    width: 100%;
+  }
+  .col5 {
+    margin: 3% 5%;
+  }
+  .worksRow {
+    margin: 2% 5% 10% 5%;
+  }
+  .vacancyCol {
+    padding: 0 15%;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: medium;
+    }
+  }
+  .cardDate {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .colTitle {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+  .img1 {
+    width: 110%;
+  }
+  .section1LeftCol {
+    padding: 2% 0 0 0;
+  }
+  .hiraceCol,
+  .worksCol {
+    padding: 0 15%;
+  }
+  .img2 {
+    width: 120%;
+  }
+  .list,
+  .plist {
+    font-size: small;
+  }
+  .list {
+    padding: 0 2% 2% 0;
+  }
+  .jobIcon {
+    width: 35px;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: small;
+    }
+  }
+  .location,
+  .coin {
+    width: 10px;
+  }
+  .location {
+    margin-right: 5px;
+  }
+  .coin {
+    margin: 0 5px;
+  }
+  .btncol1 {
+    margin-right: 2%;
+  }
+  .btncol2 {
+    margin-left: 2%;
+  }
+  .signupTitle {
+    font-size: 2.5rem;
+    padding: 0 5%;
+  }
+  .signupBtn {
+    width: 30% !important;
+    height: 55px !important;
+  }
+  .img3 {
+    margin: 10% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .img1 {
+    width: 100%;
+    padding: 5%;
+  }
+  .cardCol {
+    margin: 2%;
+  }
+  .thirdSection {
+    margin: 5% 0;
+  }
+  .imgCol {
+    text-align: center;
+    margin: 5% 0;
+  }
+  .img2 {
+    width: 80%;
+    height: auto;
+  }
+  .list,
+  .plist {
+    font-size: medium;
+    padding-right: 10%;
+  }
+  .personalPara {
+    margin-bottom: 5%;
+    padding-right: 10%;
+  }
+  .hrule {
+    display: none;
+  }
+  .vacancyCol {
+    padding: 0 5%;
+  }
+  .cardCol2 {
+    padding-top: 2%;
+    padding-left: 0;
+    margin: 5%;
+    width: 40%;
+  }
+  .jobCard {
+    h5,
+    p {
+      font-size: medium;
+    }
+  }
+  .jobIcon {
+    width: 50px;
+  }
+  .btncol1,
+  .btncol2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  }
+  .signupCol {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .img3 {
+    width: 60%;
+  }
+  .lastCol1 {
+    text-align: center;
+  }
+  .lastCol1 {
+    padding: 5%;
+  }
+  .footer {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .section1LeftCol {
+    padding: 3%;
+  }
+  .colTitle {
+    font-size: 2.5rem;
+    padding: 5% 0 0 0;
+  }
+  .companyTitle {
+    padding: 5% 0;
+    font-size: 1.5rem;
+  }
+  .companyLogo {
+    margin: 5% 0;
+  }
+  .hiraceCol {
+    padding: 0 8%;
+  }
+  .cardRow {
+    padding: 5% 10%;
+  }
+  .cardCol {
+    padding: 5% 10%;
+  }
+  .list,
+  .plist {
+    font-size: small;
+  }
+  .img2 {
+    width: 80%;
+    height: auto;
+  }
+  .jobCard {
+    width: 80%;
+    h5,
+    p {
+      font-size: small;
+    }
+  }
+  .jobIcon {
+    width: 40px;
+  }
+  .sixthSection {
+    padding: 5%;
+  }
+  .lastRow {
+    justify-content: center;
+  }
+  .lastCol2 {
+    width: 30%;
+    padding: 0;
+  }
+  .footerCol1,
+  .footerCol2,
+  .footerCol2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .viewJob {
+    padding: 0 25%;
+  }
+}

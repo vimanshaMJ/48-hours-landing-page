@@ -1,0 +1,19 @@
+.actionBtn {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  background-color: #635bff;
+  font-size: large;
+}
+.actionBtn:hover {
+  background-color: white;
+  color: #635bff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .actionBtn {
+    margin: 2% 0;
+    width: 50%;
+  }
+}
